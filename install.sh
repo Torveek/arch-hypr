@@ -188,7 +188,7 @@ main() {
 
     # Copy dotfiles 
     printf " Copying config files...\n"
-    cp -r "$HOME/arch-hypr/dotfiles/.config/* ~/.config/ 
+    cp -r $HOME/arch-hypr/dotfiles/.config/* ~/.config/ 
 
     print_message "Hyprland setup completed successfully!"
 }
