@@ -72,7 +72,7 @@ update_configs() {
             echo "monitor=${monitor},${res}@${refresh},0x0,1"
         done
     } > "$displays_conf"
-    cp -r "$HOME/arch-hypr/dotfiles/Wallpaper/* $WALLPAPER_DIR
+    cp -r $HOME/arch-hypr/dotfiles/Wallpaper/* $WALLPAPER_DIR
     print_message "Configuration files updated with user input."
 }
 
